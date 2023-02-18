@@ -4,6 +4,7 @@ url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&displa
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    background-color: rgb(31, 31, 31);
 }
 
 .body {
@@ -19,7 +20,7 @@ body {
 }
 
 .logo {
-    font-size: 20px;
+    font-size: 42px;
     padding: 12px;
     display: flex;
     align-items: center;
@@ -36,6 +37,9 @@ body {
 .navbar {
     display: flex;
     padding: 8px;
+    padding-left: 16px;
+    background-color: rgb(20, 20, 20);
+    flex: 1;
 }
 
 .navbar ul {
@@ -45,7 +49,17 @@ body {
 
 .circle-btns {
     display: flex;
-    gap: 16px;
+    gap: 20px;
+}
+
+.back-btn, 
+.next-btn {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
 }
 
 .sidebar button {
@@ -66,6 +80,6 @@ ul {
     list-style-type: none;
 }
 
-.content {
-    display: flex;
+.text {
+    color: grey;
 }
