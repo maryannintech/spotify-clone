@@ -14,8 +14,20 @@ body {
     padding: 8px;
     position: fixed;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+.sidebar ul,
+.bottom-side {
+    padding: 0;
+    margin-left: 14px;
+}
+
+.bottom-side {
+    margin-bottom: 20px;
+}
 .logo {
     padding: 12px;
     display: flex;
@@ -75,20 +87,19 @@ body {
     font-size: 30px;
 }
 
-.sidebar button {
+.language {
     border-radius: 20px;
     padding: 4px;
     font-size: 16px;
+    border: 2px white solid;
+    width: 90px;
+    margin-top: 28px;
 }
+
 
 a {
     text-decoration: none;
     color: rgb(153, 152, 152);
-}
-
-.bottom-side {
-    margin-top: 100%;
-    padding: 0;
 }
 
 .links {
@@ -113,10 +124,12 @@ a {
     display: flex;
     padding-top: 24px;
     gap: 30px;
+    justify-content: space-evenly;
 }
 
 .card {
     background-color:  rgb(37, 37, 37);
+    padding: 12px;
 }
 
 .sidebar a:hover {
@@ -128,7 +141,14 @@ ul {
 }
 
 .text {
-    color: grey;
+    color: white;
+    font-size: 16px;
+}
+
+
+.card p {
+    color: rgb(153, 152, 152);
+    font-size: 13px;
 }
 
 .content-text {
