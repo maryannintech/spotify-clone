@@ -5,45 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Spotify - Web Player</title>
 </head>
 <body>
     <div class="body">
         <div class="sidebar">
-            <div class="logo">Spotify</div>
+            <div class="logo">
+                <i class='bx bxl-spotify'></i> 
+                <p class="logo-name"><strong>Spotify</strong></p> 
+            </div>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Search</a></li>
-              <li><a href="#">Your library</a></li>
+              <li><a href="#"><i class='bx bxs-home'></i> Home</a></li>
+              <li><a href="#"><i class='bx bx-search'></i> Search</a></li>
+              <li><a href="#"><i class='bx bx-library' ></i> Your library</a></li>
             </ul>
           
           <ul>
-            <li><a href="#">Create playlist</a></li>
-            <li><a href="#">Liked Songs</a></li>
+            <li><a href="#"><i class='bx bxs-plus-square' ></i> Create playlist</a></li>
+            <li><a href="#"><i class='bx bxs-heart-square' style='color:green'></i> Liked Songs</a></li>
           </ul>
 
           <p class="cookies">Cookies</p>
-          <button class="language">English</button>
+          <button class="language"><i class='bx bx-world'></i> English</button>
         </div>
 
-    <div class="navbar">
-        <div class="up">
-        <div class="circle-btns">
-            <p class="back-btn"><</p>
-            <p class="next-btn">></p>
-        </div>
-        <div class="links">
-            <ul>
-                <li><a href="#"><strong>Premium</strong></a></li>
-                <li><a href="#"><strong>Support</strong></a></li>
-                <li><a href="#"><strong>Download</strong></a></li>
-              </ul>
-        </div>
-        <p class="line">|</p>
-        <ul>
-            <li><a href="#"><strong>Sign up</strong></a></li>
-            <li><a class="log-in" href="#"><strong>Log in</strong></a></li>
-        </ul>
+            <div class="navbar">
+                <div class="btns">
+                    <div class="back"><p><</p></div>
+                    <div class="next"><p>></p></div>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a class="sign-up" href="#"><strong>Sign up</strong></a></li>
+                        <li><a class="log-in" href="#"><strong>Log in</strong></a></li>
+                    </ul>
+                </div>
+
+            </div>
     </div>
 
     <div class="content">
@@ -93,6 +92,5 @@
             </div>
         </div>
     </div>
-</div>
 </body>
 </html>
