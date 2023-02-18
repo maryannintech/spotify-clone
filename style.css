@@ -72,6 +72,14 @@ a {
     color: rgb(153, 152, 152);
 }
 
+.first-row {
+    display: flex;
+}
+
+.second-row {
+    display: flex;
+}
+
 a:hover {
     color: white;
 }
