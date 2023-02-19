@@ -46,8 +46,18 @@ body {
     font-size: 45px;
 }
 
+.top-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .top-side ul {
-    font-size: 18px;
+    font-size: 16px;
+}
+
+.top-side li {
+    margin-top: 16px;
 }
 
 .cookies {
@@ -148,7 +158,10 @@ a {
 
 .card {
     background-color:  rgb(37, 37, 37);
-    padding: 12px;
+    padding-top: 34px;
+    padding-right: 34px;
+    padding-left: 34px;
+    border-radius: 8px;
 }
 
 .sidebar a:hover {
@@ -194,4 +207,5 @@ ul {
 .content {
     margin-left: 250px;
     margin-right: 30px;
+    margin-bottom: 58px;
 }
