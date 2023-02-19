@@ -64,7 +64,8 @@ body {
     font-size: 10px;
 }
 
-.cookies:hover {
+.cookies:hover,
+.right-text:hover {
     text-decoration: underline;
 }
 
@@ -187,7 +188,6 @@ ul {
     padding: 0;
 }
 
-
 .card p {
     color: rgb(153, 152, 152);
     font-size: 13px;
@@ -208,10 +208,6 @@ ul {
 .right-text {
     color: rgb(153, 152, 152);
     font-size: 14px;
-}
-
-.right-text:hover {
-    text-decoration: underline;
 }
 
 .content {
