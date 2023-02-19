@@ -26,8 +26,9 @@ body {
 }
 
 .bottom-side {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
+
 .logo {
     padding: 12px;
     display: flex;
@@ -43,6 +44,10 @@ body {
 
 .bxl-spotify {
     font-size: 45px;
+}
+
+.top-side ul {
+    font-size: 18px;
 }
 
 .cookies {
@@ -96,6 +101,10 @@ body {
     margin-top: 28px;
 }
 
+.language:hover {
+    border: 3px white solid;
+    font-size: 17px;
+}
 
 a {
     text-decoration: none;
@@ -117,6 +126,16 @@ a {
     background-color: white;
     border-radius: 24px;
     padding: 15px 32px;
+}
+
+.log-in:hover {
+    padding: 16px 33px;
+    background-color: rgb(212, 211, 211);
+}
+
+.sign-up:hover {
+    color: white;
+    font-size: 15px;
 }
 
 .first-row,
