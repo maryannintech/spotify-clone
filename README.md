@@ -5,7 +5,7 @@ I attempted to clone [Spotify's](https://open.spotify.com/) web page to practice
 # Screenshot of the web page
 ![image](/images/spotify-clone.png)
 
-## Screenshot of layout I copied
+## Screenshot of the layout I copied
 ![image](/images/spotify-webpage.png)
 ![image](/images/spotify-webpage2.png)
 
